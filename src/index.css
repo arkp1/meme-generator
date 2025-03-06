@@ -113,3 +113,24 @@ main {
   cursor: pointer;
   margin-top: 2rem;
 }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 14px;
+  height: 44px;
+  border-top: 1px solid #9ca3af; /* Gray-400 */
+}
+
+.divider {
+  margin: 0 8px;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: inherit;
+}

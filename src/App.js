@@ -1,13 +1,14 @@
 import React from "react";
-import reactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Meme from "./components/Meme";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <>
   <Header />
   <Meme />
+  <Footer />
     </>
 )
 }
